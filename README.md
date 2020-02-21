@@ -66,6 +66,3 @@ $ git commit -m 'build message'.
 $ git push origin master
 $ yarn publish
 ```
-
-
-©2020 POLITICO
