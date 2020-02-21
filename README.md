@@ -2,9 +2,10 @@
 
 # react-stateface
 
-[ProPublica's StateFace glyphs](https://github.com/propublica/stateface) but as an svg-based JSX component.
+Low-resolution SVG `jsx` components for all 50 United States along with DC and Puerto Rico. Lookup by postal code, fips code, or just the state's name. It comes with absolutely no styles allowing you to style as you see fit. [See it in action!](https://the-politico.github.io/react-stateface/State/)
 
-[See it in action.](https://the-politico.github.io/react-stateface/State/)
+## Why This?
+We're big fans of [ProPublica's StateFace font](https://propublica.github.io/stateface/) at the POLITICO Interactive Desk, but sometimes we need a level of precision that only SVGs have. For that reason, we've converted all of their glyphs into SVGs and loaded them up into an easy-to-use react component. Check out ProPublica's repo if font glyphs is a better/lighter solution for you.
 
 ## Quick Start
 
