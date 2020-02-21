@@ -1,0 +1,23 @@
+@import "Theme/main.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.component :global {
+    @import "~bulma/sass/utilities/_all.sass";
+    @import "~bulma/sass/layout/section.sass";
+
+    color: $black;
+
+    .well{
+      width: 100%;
+      max-width: 800px;
+      margin: 0px auto;
+      box-sizing: border-box;
+    }
+    .title h1{
+      font-family: $din;
+      font-size: 300%;
+      margin: 40px auto 30px;
+      font-weight: lighter;
+    }
+}

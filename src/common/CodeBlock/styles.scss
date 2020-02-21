@@ -1,0 +1,41 @@
+@import "Theme/main.scss";
+
+.component :global {
+  position: relative;
+  overflow: scroll;
+  background-color: white;
+  pre {
+    background-color: white;
+    border-radius: 2px;
+    margin: 80px 0 60px;
+    padding: 2em 0 0;
+    border-top: 2px dashed #ccc;
+  }
+  code {
+    width: 100%;
+  }
+  button {
+    border: 0;
+    color: #ddd;
+    position: absolute;
+    right: 10px;
+    top: 95px;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 14px;
+    &:hover {
+      color: #666;
+    }
+    &:active {
+      border: 1px solid #666;
+    }
+    &.copy{
+      right: 10px;
+      top: 95px;
+      &:active{
+        right: 8px;
+        top: 97px;
+      }
+    }
+  }
+}

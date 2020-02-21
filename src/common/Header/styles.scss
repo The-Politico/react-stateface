@@ -1,0 +1,56 @@
+@import "Theme/main.scss";
+
+.component :global {
+  @import "~bulma/sass/utilities/_all.sass";
+  @import "~bulma/sass/components/navbar.sass";
+
+  nav.global{
+    font-size: 15px;
+    padding: 15px 20px 10px;
+    background-color: white;
+    border-bottom: 10px solid #f2f2f5;
+
+    .bt-icon--house svg{
+      height: 25px;
+      display: block;
+      float: left;
+      padding-right: 10px;
+    }
+
+    b, .project-name a{
+      color: $politico-dark-red;
+      padding-right: 10px;
+    }
+
+    .project-name a {
+      font-family: $din;
+    }
+
+
+    span.project-name{
+      font-size: 21px;
+      font-family: $din;
+      font-weight: 400;
+    }
+
+    ul.nav{
+      .nav-link{
+        padding: .25rem .5rem;
+      }
+    }
+  }
+
+  // .navbar{
+  //   background-color: $politico-red;
+  //   .navbar-item{
+  //     font-family: $din;
+  //     font-size: 18px;
+  //     color: $white;
+  //     text-decoration: none;
+  //
+  //     &:hover{
+  //       color: $white;
+  //     }
+  //   }
+  // }
+}
