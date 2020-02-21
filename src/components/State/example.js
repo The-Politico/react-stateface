@@ -22,7 +22,7 @@ const App = () => {
 
 
       <CodeBlock
-        value={`import { State } from '@politico/module_react-stateface';
+        value={`import { State } from 'react-stateface';
 
 /* Use the "state" prop to provide a lookup string */
 <State state={"${lookup}"} />

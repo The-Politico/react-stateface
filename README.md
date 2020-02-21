@@ -1,21 +1,21 @@
 ![](https://www.politico.com/interactives/cdn/images/badge.svg)
 
-# @politico/module_react-stateface
+# react-stateface
 
-Specialized component module pack.
+ProPublica's StateFace glyphs but as an svg-based JSX component.
 
 ## Quick Start
 
 Installation:
 
 ```
-$ yarn add https://github.com/The-Politico/module_react-stateface
+$ yarn add react-stateface
 ```
 
-Import only what you need:
+Import it:
 
 ```javascript
-import { State } from '@politico/module_react-stateface';
+import { State } from 'react-stateface';
 ```
 
 Use it in your component:
@@ -23,7 +23,7 @@ Use it in your component:
 ```javascript
 import React from "react";
 
-const MyComponent = () => <State />;
+const MyComponent = () => <State>{"FL"}</State>;
 
 export default MyComponent;
 ```
@@ -59,7 +59,8 @@ Publish:
 ```
 $ git commit -m 'build message'.
 $ git push origin master
+$ yarn publish
 ```
 
 
-©2019 POLITICO
+©2020 POLITICO
