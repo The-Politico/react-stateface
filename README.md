@@ -2,7 +2,7 @@
 
 # react-stateface
 
-ProPublica's StateFace glyphs but as an svg-based JSX component.
+[ProPublica's StateFace glyphs](https://github.com/propublica/stateface) but as an svg-based JSX component.
 
 ## Quick Start
 
