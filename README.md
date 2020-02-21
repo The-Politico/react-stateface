@@ -4,6 +4,8 @@
 
 [ProPublica's StateFace glyphs](https://github.com/propublica/stateface) but as an svg-based JSX component.
 
+[See it in action.](https://the-politico.github.io/react-stateface/State/)
+
 ## Quick Start
 
 Installation:
