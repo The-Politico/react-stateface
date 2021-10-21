@@ -1,1 +1,5 @@
-export { default as State } from './components/State/index.js';
+const State = require('./components/State');
+
+module.exports = {
+  State,
+};

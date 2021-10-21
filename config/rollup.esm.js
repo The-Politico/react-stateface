@@ -15,7 +15,7 @@ const babelOpts = {
   ],
   plugins: [
     '@babel/proposal-class-properties',
-    [ 'babel-plugin-webpack-alias', { 'config': './config/webpack.babel.js' } ],
+    ['babel-plugin-webpack-alias', { config: './config/webpack.babel.js' }],
   ],
 };
 
@@ -33,7 +33,7 @@ export default glob.sync('./src/components/*/index.js').map(file => {
     input: file,
     output: {
       file: path.resolve(process.cwd(), `dist/components/${componentName}/index.js`),
-      format: 'es',
+      format: 'cjs',
       // banner: 'import \'./index.css\';',
     },
     plugins: [

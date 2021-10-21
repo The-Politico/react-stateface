@@ -1,6 +1,10 @@
-import React from 'react';
-import classnames from 'classnames';
-import us from 'us';
+'use strict';
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var React = _interopDefault(require('react'));
+var classnames = _interopDefault(require('classnames'));
+var us = _interopDefault(require('us'));
 
 var AK = (function () {
   return React.createElement("svg", {
@@ -1853,4 +1857,4 @@ var State = function State(props) {
   }, React.createElement(SVG, null));
 };
 
-export default State;
+module.exports = State;
